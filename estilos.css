@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poetsen One';
+    background: rgb(209, 204, 204);
+}
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img{
+    background-image: url(Azul.avif);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.encabezado-img p{
+    font-size: 20px;
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.heading{
+    text-align: center;
+    background: var(black);
+    color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.NOSOTROS{
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.NOSOTROS h2{
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+.contenedor-nosotros{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.cuadro{
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro h3{
+    font-size: 1.4rem;
+    color: #030303;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.cuadro p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.SERVICIOS{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.galeria{
+    margin-top: 25px;
+}
+
+.imgs{
+    display: inline-flex;
+    width: 260px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.imgs img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+
+.imgs img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.btn{
+    font-family: 'Poetsen One';
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 ipx 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-black{
+    color: rgb(255, 255, 255);
+    background-color: #37408f;
+}
+
+.btn-black:hover{
+    background-color: #2c2b2b;
+}
+
+.btn-black:active{
+    background-color: #2c2a2a;
+}
+
+form{
+    background-color: rgb(125, 214, 241);
+    border-radius: 3px;
+    color: #000;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+
+    width: 280px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.field:focus{
+    border-color: #666;
+}
+
+.center-content{
+    text-align: center;
+}
